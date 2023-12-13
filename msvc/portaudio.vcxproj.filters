@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{70f20c03-d966-4b33-94b7-cfd6ebfca7ab}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{0b1ba2cc-e3b5-4801-9098-95e4bdfcc46e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hostapi">
+      <UniqueIdentifier>{8b0e58be-1d51-43f4-a8af-c1246d7171cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hostapi\dsound">
+      <UniqueIdentifier>{4c56353f-9186-4740-bf39-fdf8e0e77c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hostapi\wmme">
+      <UniqueIdentifier>{09a086cb-73c0-4532-bed6-b12512b9a490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hostapi\wasapi">
+      <UniqueIdentifier>{d3d20533-ade9-4222-9fe0-cd7a1f825760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hostapi\wdmks">
+      <UniqueIdentifier>{a2e58962-1623-465a-aafe-6fbe2ce9502d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\os">
+      <UniqueIdentifier>{476ea943-2fa2-4bf3-bf22-69f9ca257c64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\os\win">
+      <UniqueIdentifier>{70088b33-e479-44e8-a545-59d3a321f3ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{474cb4bb-aa67-4625-9146-add194b9a988}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6dbb5947-02c0-42ba-b0a0-0dfce22cfafa}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\common\pa_allocation.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\pa_converters.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\pa_cpuload.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\pa_debugprint.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\pa_dither.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\pa_front.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\hostapi\skeleton\pa_hostapi_skeleton.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\pa_process.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\pa_ringbuffer.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\pa_stream.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\pa_trace.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\hostapi\dsound\pa_win_ds.c">
+      <Filter>Source Files\hostapi\dsound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\hostapi\dsound\pa_win_ds_dynlink.c">
+      <Filter>Source Files\hostapi\dsound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\hostapi\wmme\pa_win_wmme.c">
+      <Filter>Source Files\hostapi\wmme</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\hostapi\wasapi\pa_win_wasapi.c">
+      <Filter>Source Files\hostapi\wasapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\hostapi\wdmks\pa_win_wdmks.c">
+      <Filter>Source Files\hostapi\wdmks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\os\win\pa_win_coinitialize.c">
+      <Filter>Source Files\os\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\os\win\pa_win_hostapis.c">
+      <Filter>Source Files\os\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\os\win\pa_win_util.c">
+      <Filter>Source Files\os\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\os\win\pa_win_version.c">
+      <Filter>Source Files\os\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\os\win\pa_win_waveformat.c">
+      <Filter>Source Files\os\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\os\win\pa_win_wdmks_utils.c">
+      <Filter>Source Files\os\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\os\win\pa_x86_plain_converters.c">
+      <Filter>Source Files\os\win</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="portaudio.def">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\pa_asio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\pa_win_ds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\pa_win_wasapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\pa_win_waveformat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\pa_win_wmme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\portaudio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
